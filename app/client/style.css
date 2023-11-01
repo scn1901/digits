@@ -15,6 +15,9 @@
 body {
   --bs-dark: var(--matr-navbar-bg);
   --bs-dark-rgb: var(--matr-navbar-bg-rgb);
+  /*
+  --bs-body-color: var(--matr-navbar-highlight-text);
+   */
   background: fixed center url("images/northernlights.jpg");
   background-size: cover;
 }
@@ -47,4 +50,8 @@ footer, footer a {
 
 .bg-dark a.dropdown-item {
   color: var(--matr-navbar-bg);
+}
+
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highlight-text);
 }

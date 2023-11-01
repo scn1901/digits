@@ -6,7 +6,7 @@ import '../../../client/style.css';
 /* A simple static component to render some text for the landing page. */
 const Landing = () => (
   <Container id="landing-page" className="py-3">
-    <Row className="align-middle text-center">
+    <Row className="align-middle text-center text-light">
       <Col xs={4}>
         <PeopleFill size={100} />
         <h1>Multiple Users</h1>

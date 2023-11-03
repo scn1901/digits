@@ -2,9 +2,9 @@ import { Mongo } from 'meteor/mongo';
 import SimpleSchema from 'simpl-schema';
 
 /**
- * The StuffsCollection. It encapsulates state and variable values for stuff.
+ * The ContactsCollection. It encapsulates state and variable values for contacts.
  */
-class Contacts {
+class ContactsCollection {
   constructor() {
     // The name of this collection.
     this.name = 'ContactsCollection';

@@ -55,3 +55,7 @@ footer, footer a {
 .navbar a.nav-link.active {
   color: var(--matr-navbar-highlight-text);
 }
+
+.card-image {
+  height: 50px;
+}
